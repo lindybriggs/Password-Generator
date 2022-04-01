@@ -43,24 +43,25 @@ let chosen = [];
     // Asks user to choose other character types for password. If condition is true, will add that character's array to chosen array
   }   else {
         if (confirmLC = confirm("Want to include lower case letters?")){
-          chosen.push(lowerCaseArray);
+          chosen = chosen.concat(lowerCaseArray);
         } if (confirmUC = confirm("Want to include upper case letters?")){
-          chosen.push(upperCaseArray);
+          chosen = chosen.concat(upperCaseArray);
         } if (confirmNumeric = confirm("Want to include numbers?")){
-          chosen.push(numericArray);
+          chosen = chosen.concat(numericArray);
         } if (confirmCharacters = confirm("Want to include characters?")){
-          chosen.push(characterArray);
+          chosen = chosen.concat(characterArray);
         } 
-          else {
-            for (let i = 0; i < confirmLength; i++) {
-              let randomNumber = Math.random()*chosen.length
-              let roundedNumber = Math.floor(randomNumber);
-            
-              string += chosen[roundedNumber]
-            }
+
+for (let i = 0; i < confirmLength; i++) {
+  let randomNumber = Math.random()*chosen.length
+  let roundedNumber = Math.floor(randomNumber);
+
+  string += chosen[roundedNumber]
+              
+
           }
       }
-
+return string;
 }
 
 console.log(generatePassword);
