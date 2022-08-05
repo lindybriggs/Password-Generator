@@ -1,6 +1,6 @@
-# Homework #3: JavaScript Password Generator
+# JavaScript Password Generator
 
-## Assignment Description
+## Description
 
 * Created application to enable user to randomly generate a password based on criteria options they select, with a length between 8-128 of their choosing.
 
@@ -17,6 +17,6 @@ The following image shows the web application's appearance and functionality:
 
 ![lindybriggs github io_hw3-password-generator-4-1_](https://user-images.githubusercontent.com/101146153/161286026-5acd1c31-30e5-459f-af0e-0a755a940453.png)
 
-## Link to Deployed Application
+## Link
 
-https://lindybriggs.github.io/hw3-password-generator-4-1/
+Vist the deployed app [here](https://lindybriggs.github.io/Password-Generator/).
